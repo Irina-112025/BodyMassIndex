@@ -3,7 +3,7 @@ public class Main {
         BmiService service = new BmiService();
         int weightKg = 52; // вес
         double heightM = 1.72; // рост
-        int bmi = service.calculate((int) weightKg, heightM); // Должно получиться 28
+        int bmi = service.calculate((int) weightKg, heightM); // Должно получиться 17
         System.out.println(bmi);
     }
 }
